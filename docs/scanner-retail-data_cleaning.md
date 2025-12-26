@@ -10,7 +10,7 @@
 	    COUNT(*) FILTER (WHERE "Quantity" IS NULL) AS quantity_null,
 	    COUNT(*) FILTER (WHERE "Sales_Amount" IS NULL) AS sales_amount_null
 	  FROM scanner_data;
-	- ![image.png](../assets/scanner_retail_data/image_1765874953108_0.png)
+	- ![image.png](/assets/image_1765874953108_0.png)
 	- All columns required for analysis contain no nulls and blanks. No dropping of columns are needed.
 - Typography checks
   collapsed:: true
@@ -35,7 +35,7 @@
 	  GROUP BY id
 	  HAVING COUNT(*) > 1
 	  ORDER BY id DESC;
-	- ![image.png](../assets/scanner_retail_data/image_1765890015717_0.png)
+	- ![image.png](/assets/image_1765890015717_0.png)
 	- There were no duplicate "Column1" or id values; therefore, no rows were dropped.
 - Date data type change
   collapsed:: true
