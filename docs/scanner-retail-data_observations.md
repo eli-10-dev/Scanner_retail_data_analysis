@@ -18,18 +18,18 @@
 			- SELECT
 			  	COUNT(DISTINCT "Customer_ID") AS customerid_count
 			  FROM scanner_data;
-			- ![image.png](assets/scanner_retail_data/image_1765872942622_0.png){:height 87, :width 312}
+			- ![image.png](/assets/scanner_retail_data/image_1765872942622_0.png){:height 87, :width 312}
 		- Transaction_ID
 		  collapsed:: true
 			- SELECT
 			  	COUNT(DISTINCT "Transaction_ID") AS transactionid_count
 			  FROM scanner_data;
-			- ![image.png](assets/scanner_retail_data/image_1765872860278_0.png)
+			- ![image.png](/assets/scanner_retail_data/image_1765872860278_0.png)
 		- Total number of transactions
 		  collapsed:: true
 			- SELECT SUM(ctgry_transaction_count) AS total_transactions
 			  FROM sdc_sku_ctgry_transaction_count;
-			- ![image.png](assets/scanner_retail_data/image_1766376302637_0.png)
+			- ![image.png](/assets/scanner_retail_data/image_1766376302637_0.png)
 		- SKU_Category
 		  collapsed:: true
 			- SELECT
