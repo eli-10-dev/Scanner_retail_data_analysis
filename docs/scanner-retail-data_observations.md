@@ -2,7 +2,6 @@
   https://www.kaggle.com/datasets/marian447/retail-store-sales-transactions
 - The dataset contains 131,706 rows and 8 columns.
 - The dataset's columns are:
-  collapsed:: true
 	- ID
 	- Date
 	- Customer_ID
@@ -14,30 +13,25 @@
 - Dimension checks
 	- Categories
 		- Customer_ID
-		  collapsed:: true
 			- SELECT
 			  	COUNT(DISTINCT "Customer_ID") AS customerid_count
 			  FROM scanner_data;
 			- ![image.png](/assets/image_1765872942622_0.png)
 		- Transaction_ID
-		  collapsed:: true
 			- SELECT
 			  	COUNT(DISTINCT "Transaction_ID") AS transactionid_count
 			  FROM scanner_data;
 			- ![image.png](/assets/image_1765872860278_0.png)
 		- Total number of transactions
-		  collapsed:: true
 			- SELECT SUM(ctgry_transaction_count) AS total_transactions
 			  FROM sdc_sku_ctgry_transaction_count;
 			- ![image.png](/assets/image_1766376302637_0.png)
 		- SKU_Category
-		  collapsed:: true
 			- SELECT
 			  	COUNT(DISTINCT "SKU_Category") AS sku_category_count
 			  FROM scanner_data;
 			- ![image.png](/assets/image_1765872600703_0.png)
 		- SKU
-		  collapsed:: true
 			- SELECT
 			  	COUNT(DISTINCT "SKU") AS sku_count
 			  FROM scanner_data;
