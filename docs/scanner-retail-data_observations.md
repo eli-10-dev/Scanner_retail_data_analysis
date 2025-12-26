@@ -18,7 +18,7 @@
 			- SELECT
 			  	COUNT(DISTINCT "Customer_ID") AS customerid_count
 			  FROM scanner_data;
-			- ![image.png](/assets/scanner_retail_data/image_1765872942622_0.png)
+			- ![image.png](/assets/image_1765872942622_0.png)
 		- Transaction_ID
 		  collapsed:: true
 			- SELECT
