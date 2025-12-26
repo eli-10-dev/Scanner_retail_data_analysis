@@ -73,13 +73,15 @@
 		- What are the transaction trends of the top 5 customers and another set of 5 customers with half the transactions?
 	- Graphs
 		- Query
-			- --CREATE TABLE sdc_sku_ctgry_transaction_count AS
-			  SELECT 
-			  	"SKU_Category",
-			  	count(*) AS ctgry_transaction_count
-			  FROM scanner_data_clean sdc 
-			  GROUP BY "SKU_Category"
-			  ORDER BY ctgry_transaction_count DESC;
+			- --CREATE TABLE sdc_customer_transaction_count_ot AS 
+				SELECT 
+					"Customer_ID",
+					"Date",
+					COUNT("Transaction_ID") AS customer_transaction_count,
+					EXTRACT(MONTH FROM "Date") AS "Month"
+				FROM scanner_data_clean
+				GROUP BY "Customer_ID", "Date"
+				ORDER BY customer_transaction_count DESC, "Customer_ID";
 		- Data
 			- Top 5 customers and their transactions
 				- ![image.png](/assets/image_1766505011625_0.png)
