@@ -1,6 +1,6 @@
 # Scanner Retail Data Analysis
 
-**A data analysis project exploring purchasing patterns and sales performance using SQL and Excel.**
+**A data analysis project exploring well performing product categories and customer purchasing behavior using SQL and PowerBI.**
 
 ---
 
