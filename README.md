@@ -1,4 +1,4 @@
-<img width="995" height="505" alt="image" src="https://github.com/user-attachments/assets/625fd6fc-0a82-4e87-a62d-f73c1fede752" /># Scanner Retail Data Analysis
+# Scanner Retail Data Analysis
 
 **A data analysis project exploring purchasing patterns and sales performance using SQL and Excel.**
 
