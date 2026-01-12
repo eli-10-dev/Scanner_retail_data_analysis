@@ -32,7 +32,6 @@ Dataset Link: https://www.kaggle.com/datasets/shubham1kumar/usedcar-data
 ---
 
 ## 📊 Key Findings (Summary)
-Include a few bullets like:
 - The pie graph shows the distribution of transaction counts of the different sku_categories. The top 9 categories take up approximately 38% of sales, contributing to over 3,000 transactions each, while the rest of the product or sku categories contribute less than 3,000 transactions.
 <img width="995" height="505" alt="image" src="https://github.com/user-attachments/assets/20cb2798-dcd8-4653-a720-023232f89e1f" />
 
