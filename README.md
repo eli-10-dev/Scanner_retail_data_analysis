@@ -14,6 +14,8 @@ sql/ - SQL scripts used in the analysis
 ## 📁 Project Overview
 This project analyzes scanner retail data to uncover patterns in product category sales, customer purchasing behavior, and overall performance trends. The goal is to extract meaningful insights that could help retailers make informed decisions related to pricing, promotions, and inventory planning.
 
+Dataset Link: https://www.kaggle.com/datasets/shubham1kumar/usedcar-data
+
 ---
 
 ## 🎯 Core Objectives
@@ -42,4 +44,5 @@ Include a few bullets like:
 
 - Top 5 customers with most transactions
 <img width="1112" height="530" alt="image" src="https://github.com/user-attachments/assets/31e4143a-b55c-4a5b-a74a-dfa14101a887" />
+
 ---
