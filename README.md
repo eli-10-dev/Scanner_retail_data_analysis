@@ -36,15 +36,22 @@ Dataset Link: https://www.kaggle.com/datasets/shubham1kumar/usedcar-data
 - The pie graph shows the distribution of transaction counts of the different sku_categories. The top 9 categories take up approximately 38% of sales, contributing to over 3,000 transactions each, while the rest of the product or sku categories contribute less than 3,000 transactions.
 
 
-- Top 5 sku categories with most transactions
-<img width="1093" height="599" alt="image" src="https://github.com/user-attachments/assets/0445c8f2-119e-41db-9247-b6c3a196c9bd" />
-- Transactions across category popularity are concentrated on specific periods of the year. These time periods are April, September, October, December.
+- **Sku categories' transaction count**
+<img width="611" height="124" alt="image" src="https://github.com/user-attachments/assets/9be23daa-e889-41c7-8c45-4c4a28669d51" />
+<img width="997" height="557" alt="image" src="https://github.com/user-attachments/assets/f4d95d88-1e57-478d-9f33-f005f25ac8a5" />
+<img width="1026" height="558" alt="image" src="https://github.com/user-attachments/assets/f679bdd5-8acb-4853-ab22-4cb66a176b50" />
+
+- The graphs above show different popularity levels, the top most graph is the top 5 most purchased categories, every subsequent graph has half the amont of transactions.
+- Transactions across category popularity are concentrated on specific periods of the year. These time periods are April, September, October, December. - Customer transaction counts also are concentrated on multiple time periods throughout the year, regardless of their degree of activity. These months are April, June, October, and December. - Aggregated metrics revealed overall performance trends not visible at the transaction level.
+
+
+- **Customer transaction count**
+<img width="1112" height="530" alt="image" src="https://github.com/user-attachments/assets/54fea612-7cc2-422b-8ccb-915a8bf8e158" />
+<img width="1113" height="499" alt="image" src="https://github.com/user-attachments/assets/93391b5c-1c15-4f8f-a9d7-f0ae054340bb" />
+<img width="1105" height="520" alt="image" src="https://github.com/user-attachments/assets/018c3c0a-aef3-499e-a5cc-c621b28dea6f" />
+- Following the same thought process, every subsequent graph has half the amount of transactions.
 - Customer transaction counts also are concentrated on multiple time periods throughout the year, regardless of their degree of activity. These months are April, June, October, and December.
-- Aggregated metrics revealed overall performance trends not visible at the transaction level.
+- Between the transactions for sku categories and customers, there have been overlapping time periods where they both have high amount of transactions. This suggests that transactions are driven by seasonal factors.
 
-
-
-- Top 5 customers with most transactions
-<img width="1112" height="530" alt="image" src="https://github.com/user-attachments/assets/31e4143a-b55c-4a5b-a74a-dfa14101a887" />
 
 ---
