@@ -37,7 +37,6 @@ Dataset Link: https://www.kaggle.com/datasets/shubham1kumar/usedcar-data
 
 
 - **Sku categories' transaction count**
-<img width="611" height="124" alt="image" src="https://github.com/user-attachments/assets/9be23daa-e889-41c7-8c45-4c4a28669d51" />
 <img width="997" height="557" alt="image" src="https://github.com/user-attachments/assets/f4d95d88-1e57-478d-9f33-f005f25ac8a5" />
 <img width="1026" height="558" alt="image" src="https://github.com/user-attachments/assets/f679bdd5-8acb-4853-ab22-4cb66a176b50" />
 
