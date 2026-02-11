@@ -49,6 +49,7 @@ Dataset Link: https://www.kaggle.com/datasets/shubham1kumar/usedcar-data
 <img width="997" height="557" alt="image" alt="image" src="https://github.com/user-attachments/assets/54fea612-7cc2-422b-8ccb-915a8bf8e158" />
 <img width="997" height="557" alt="image" alt="image" src="https://github.com/user-attachments/assets/93391b5c-1c15-4f8f-a9d7-f0ae054340bb" />
 <img width="997" height="557" alt="image" alt="image" src="https://github.com/user-attachments/assets/018c3c0a-aef3-499e-a5cc-c621b28dea6f" />
+
 - Following the same thought process, every subsequent graph has half the amount of transactions.
 - Customer transaction counts also are concentrated on multiple time periods throughout the year, regardless of their degree of activity. These months are April, June, October, and December.
 - Between the transactions for sku categories and customers, there have been overlapping time periods where they both have high amount of transactions. This suggests that transactions are driven by seasonal factors.
