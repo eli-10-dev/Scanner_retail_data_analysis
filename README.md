@@ -1,4 +1,4 @@
-<img width="1093" height="599" alt="image" src="https://github.com/user-attachments/assets/57d09061-9a9f-448a-848e-78c4d433fb2d" /># Scanner Retail Data Analysis
+# Scanner Retail Data Analysis
 
 **A data analysis project exploring well performing product categories and customer purchasing behavior using SQL and PowerBI.**
 
